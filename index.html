@@ -1,79 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
-  
-  <title>Bootstrap Theme Simply Me</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styleee.css">
+    <title>PC</title>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+   <header>
+     <p class="text2">PC-HUB</p>
+     <span onclick="openNav()">☰</span>
+   </header>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="images/blacksky.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>I'm an adventurer</h3>
-</div>
+         <div class="sidebar" id="sidenav">
+           <h2>Menu</h2>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <ul class="mainmenu">
+                <li><a href="#item2">De geschiedenis van de computer</a>
+                  <ul class="submenu">
+                    <li><a href="#a001">HTML GS</a></li>
+                    <li><a href="#a002">Randapparatuur GS</a></li>
+                    <li><a href="#a003">Computer</a></li>
+                  </ul>
+                </li>
+                <li><a href="#item3">De onderdelen van een PC</a>
+                  <ul class="submenue">
+                    <li><a href="#a004">De moederboord</a></li>
+                    <li><a href="#a005">Computergeheugen</a></li>
+                    <li><a href="#a006">Processor (computer)</a></li>
+                    <li><a href="#a007">Geluidskaart</a></li>
+                    <li><a href="#a008">Netwerkkaart</a></li>
+                  </ul>
+                </li>
+                <li><a href="#item4">De werking van een Computer</a>
+                  <ul class="submenuue">
+                    <li><a href="#a009">Onderdelen</a></li>
+                    <li><a href="#a010">Input</a></li>
+                    <li><a href="#a011">Uitgang</a></li>
+                    <li><a href="#a012">Processor</a></li>
+                    <li><a href="#a013">Opslag</a></li>
+                  </ul>
+                </li>
+            </ul>
+         </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
-</div>
+     <img src="images/pc5.jpg" alt="header image">
+<div id="main">
+    <section class="page1" id="item2">
+       <h1>De geschiedenis van de computer</h1>
+	   <br><br>
+	   <h3><a name="a001">HTML GS</a></h3>
+	   <p>HTML werd in 1991 bedacht en ontwikkeld door Tim Berners-Lee om wetenschappelijke documenten van het CERN in Genève gemakkelijker toegankelijk te maken. De Brit baseerde zijn nieuwe opmaaktaal op het reeds bestaande SGML. Hij ontwikkelde ook de eerste webbrowser, WorldWideWeb genaamd.</p>
+	   <br><br>
+	   <h3><a name="a002">Randapparatuur GS</a></h3>
+	   <p>Randapparatuur (Engels; peripheral) is in de context van computers hardware die niet behoort tot de centrale rekeneenheid maar 'ernaast' gebruikt wordt om de computer geschikt te maken voor een bepaalde taak. Een werkende computer hoeft in principe alleen maar te bestaan uit geheugen en een processor, dit is genoeg om aan het model van de turingmachine te voldoen. Omdat een dergelijke computer niet bepaald makkelijk te bedienen is, zijn de meeste computers uitgerust met andere hardware om de interactie met de gebruiker, of met andere apparatuur, makkelijker te maken. Deze apparaten worden samen randapparatuur genoemd. In de praktijk wordt de term vooral gebruikt voor die apparatuur die extern is ten opzichte van de systeemkast.</p>
+	   <br><br>
+      <h3><a name="a003">Computer</a></h3>
+	   <p>Een computer is een apparaat waarmee gegevens volgens formele procedures kunnen worden verwerkt. Meestal wordt met het woord computer een elektronisch, digitaal apparaat bedoeld, maar er bestaan ook mechanische en analoge computers. Daarnaast kan een computer in verschillende talstelsels zoals het decimale (tientallige) of binaire (tweetalige) stelsel werken. De huidige computers werken altijd in het binaire stelsel.</p>
+	   <br><br>
+	   <p>Door de Tweede Wereldoorlog kreeg de ontwikkeling van computers een snelle vlucht. In het Verenigd Koninkrijk werd van de Colossus gebruikgemaakt om Duitse geheime codes te kraken, onder andere die van de Enigma-codeermachine. De Colossus was de eerste elektronische computer, gebruikmakend van elektronenbuizen. De eerste computer in de VS was de ENIAC, die enkele klaslokalen in beslag nam. De eerste computer in Nederland was de ARRA bij het Mathematisch Centrum. De eerste computer in een commerciële omgeving was de Miracle, een Ferranti Mark I bij het Shell-laboratorium in Amsterdam. In de periode dat het permanente geheugen (de harde schijf) nog niet algemeen bestond, was het invoeren van gegevens of programma's in een computer vrij moeizaam. Dit gebeurde oorspronkelijk met schakelaartjes en ponsband, nog iets later met ponskaarten, en in een nog later stadium met magneetbanden.</p>
+	   <br><br>
+	   <p>De computers in de jaren 1950-1980 waren vooral mainframes: zeer grote computers, waar honderden tot duizenden gebruikers gelijktijdig op konden werken. Vooral banken en verzekeringsmaatschappijen gebruikten zulke mainframes op grote schaal. De mainframe was verbonden met de gebruikers via een simpele applicatie op een bureaucomputer (vroeger ook wel via een zogenaamde domme terminal). De mainframe is met de komst van de kleine computers nog niet volledig uitgestorven en wordt nog steeds gebruikt door professionele instellingen. De bekendste bouwer van mainframes is IBM.</p>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="images/blacksky.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="images/blacksky.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
+   </section>
 
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
-</footer>
+   <img class="img1" src="images/computer2.jpg" alt="computer pic">
+
+    <section class="page2" id="item3">
+       <h1>De onderdelen van een PC</h1>
+	   <br><br>
+	   <h3><a name="a004">De moederboord</a></h3>
+	   <p>Een moederbord in een personal computer (zo’n moederbord wordt ook wel systeembord, mainboard, mobo of in het geval van Apple Inc.: Logic Board genoemd) is een printplaat met elektronica waarop andere (insteek-)printplaten kunnen worden gemonteerd. In de loop der jaren is steeds meer functionaliteit in het moederbord ondergebracht. Rond 1989 bevatte het moederbord voornamelijk de processor, het werkgeheugen en interruptvoorzieningen, alle overige functies werden met insteekkaarten verzorgd. Anno 2016 treft men op een moederbord vaak een complete pc aan, inclusief geluids- en netwerkkaart, en in een aantal gevallen ook de videokaart. Hierdoor kunnen systemen goedkoper en compacter gebouwd worden</p>
+	   <br><br>
+	   <h3><a name="a005">Computergeheugen</a></h3>
+	   <p>Het computergeheugen is een onderdeel van een computer waarin informatie opgeslagen kan worden voor later gebruik. Computergeheugen worden onderscheiden in intern geheugen en extern geheugen, of in vluchtig geheugen en niet-vluchtig (permanent) geheugen.
+	     <br>Soorten:<br>
+		    <ol>
+		        <li>read-only memory.</li>
+
+			    <li>programmable read-only memory.</li>
+			    <li>erasable programmable read-only memory.</li>
+			    <li>electrically erasable programmable read-only memory.</li>
+			    <li>random-access memory.</li>
+		    </ol>
+        <img class="img2" src="images/moederbord.jpg" alt="motherbord pic">
+	   <br><br>
+       <h3><a name="a006">Processor (computer)</a></h3>
+	   <p>Een processor, ook wel bekend als CPU (Engels: central processing unit) of in het Nederlands centrale verwerkingseenheid (cve) genoemd, is een stuk hardware in een computer dat instaat voor basisbewerkingen en -controle bij het uitvoeren van programmacode. De eerste processors waren uitgevoerd als printplaten vol met losse componenten en IC's, maar sinds de jaren 70 ontstonden de eerste zogenaamde microprocessors, waarbij het hele systeem op één enkele chip werd vervaardigd. De eerste  microprocessor was de i4004 van Intel.</p>
+	   <br><br>
+	   <h3><a name="a007">Geluidskaart</a></h3>
+	   <p>Een geluidskaart (Eng. sound card) is een uitbreidingskaart waarmee een computer hoogwaardig geluid kan produceren en opnemen. Hiertoe beschikt de kaart over een aantal componenten:
+      <ol>
+	     <li>Digitaal-analoog-omzetter (DA-converter): zet digitaal signaal om in geluid.</li>
+	   	 <li>Analoog-digitaal-omzetter (AD-converter): zet geluid om in digitaal signaal. Dit wordt ook wel sampling genoemd.</li>
+		   <li>Synthesizer: maakt weergave van MIDI-informatie mogelijk.</li>
+		   <li>Microfoonvoorversterker.</li>
+		   <li>Mixer: voor het regelen van de volumes van de verschillende bronnen (microfoon, MIDI, lijningang, WAV-geluid).</li>
+      </ol>
+	   <br><br>
+	   <h3><a name="a008">Netwerkkaart</a></h3>
+	   <p>Een netwerkkaart is een hardware-onderdeel in een computer, nodig om die computer deel te laten uitmaken van een computernetwerk. Soms is de netwerkkaart een aparte insteekkaart, maar tegenwoordig maakt de techniek meestal standaard deel uit van het moederbord van de computer (onboard) en is er geen sprake meer van een aparte netwerkkaart. Doorgaans wordt een netwerkkaart aangegeven met de afkorting NIC (Network Interface Card). Ook wordt vaak de naam 10/100-Ethernet of 10/100/1000- Ethernet gebruikt, waarbij de getallen op de snelheid in megabits per seconde slaan. Een 10/100-netwerkkaart is zowel geschikt voor 10Mbps- en 100Mbps-netwerken. De meeste netwerkkaarten zijn full-duplex, dat betekent dat ze tegelijkertijd kunnen versturen en ontvangen.</p>
+     <br><br>
+	   <p>Netwerkkaarten worden gemaakt voor een bepaald netwerk, protocol of medium, hoewel sommige kaarten kunnen worden gebruikt voor meerdere netwerken. De meest gebruikte netwerkkaart is van het ethernet-type. De technologie die hierop wordt geïmplementeerd, beslaat de onderste twee lagen van het OSI-model. Netwerkkaarten kunnen vele soorten connectoren hebben, zelfs in het geval van ethernetkaarten, zoals:</p>
+	   <ol>
+	      <li>BNC connector.</li>
+        <li>twisted pair: vaak zonder beschermingsschild (UTP: unshielded twisted pair); soms ook met (STP: shielded twisted pair), en meestal met RJ45-stekker.</li>
+        <li>AUI.</li>
+        <li>ST (fiber).</li>
+	   </ol>
+    </section>
+
+	  <img class="img3" src="images/processor.jpg" alt="pic 1">
+	  <img class="img4" src="images/geluidskaart.jpg" alt="pic 2">
+	  <img class="img5" src="images/netwerkkaart.jpg" alt="pic 3">
+
+    <section class="page3" id="item4">
+       <h1>De werking van een Computer</h1>
+	   <br><br>
+	   <h3><a name="a009">Onderdelen</a></h3>
+	   <p>Een computer is een elektronisch apparaat dat uit vier delen---in welke vorm bestaat. Een computer moet een manier gegevens invoeren, het uitvoeren van informatie, informatie verwerken en opslaan van informatie. Een elektronisch apparaat dat voldoet aan alle vier eisen wordt beschouwd als een computer. De meest voorkomende apparaat beschouwd als dat een computer is de personal computer (PC), of het worden gemaakt door Apple of een andere fabrikant.</p>
+	   <br><br>
+	   <h3><a name="a010">Input</a></h3>
+	   <p>Een invoerapparaat is een manier die een mens met het elektronische apparaat communiceren kan. De meest voorkomende methoden met een PC zijn een toetsenbord en een muis. Deze apparaten communiceren met het belangrijkste vak van de computer met behulp van korte elektronische signalen door de draden aangesloten op het belangrijkste vak van de computer. Andere methoden van input zijn een lichte pen, een touchscreen, een scanner en een microfoon.</p>
+	   <br><br>
+     <h3><a name="a011">Uitgang</a></h3>
+	   <p>Een output-apparaat is een apparaat waarmee de computer aan te tonen het resultaat van een proces (meestal een persoon). De meest voorkomende PC-uitvoerapparaat is de monitor als de monitor wordt het resultaat van berekeningen of verzoeken van de gebruiker weergegeven. De computer communiceert met de uitvoerapparaten door middel van kleine elektrische signalen via draden aangesloten op de computer. Andere gemeenschappelijke uitvoerapparaten omvatten de printer, sprekers en plotters.</p>
+	   <br><br>
+	   <h3><a name="a012">Processor</a></h3>
+     <p>Het hart van de computer is de processor. Dit is het deel van de computer die al het harde werk doet. De processor in een PC is ook wel de CPU of centrale verwerkingseenheid genoemd. Dit is een silicium chip op het moederbord van de PC aangesloten. Het moederbord verbindt alle verschillende onderdelen van de computer samen te laten communiceren met elkaar. De CPU in de PC doet alle berekeningen, elektronische signalen van invoerapparaten ontvangt, stuurt elektronische signalen naar uitvoerapparaten en elektronische informatie verzendt naar opslagapparaten.</p>
+	   <br><br>
+	   <h3><a name="a013">Opslag</a></h3>
+     <p>Het opslagapparaat kan de computer informatie behouden. Zonder een apparaat voor gegevensopslag zou de computer hetzelfde elke keer dat deze is ingeschakeld en zou niet in staat om op te slaan van dingen zoals documenten en bladwijzers. Opslagapparaten variëren in de methoden gebruikt voor het opslaan van de informatie, maar de meeste informatie wordt opgeslagen als een reeks enen en nullen. De meest voorkomende opslagapparaat op een PC is de harde schijf of harde schijf. Dit apparaat maakt gebruik van magneten informatie op te slaan wanneer u het naar uw schijf opslaat. Andere opslagapparaten zijn optische opslagmedia, diskettestations en tapestations.</p>
+    </section>
+ </div>
+
+ <footer>
+      © Reggani. All rights reserved, 2020
+ </footer>
+
+ <!-- add javascript -->
+
+   <script>
+      function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+
+}
+
+     function closeNav() {
+       document.getElementById("sidenav").style.width = "0";
+       document.getElementById("main").style.marginLeft = "0";
+}
+   </script>
 
 </body>
 </html>
